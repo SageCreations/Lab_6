@@ -16,8 +16,7 @@ void printIt(int a[], int size)
 void shellSort(int x[], int size)
 {
     bool flag;
-    int temp;
-    int gapSize = size;
+    int temp, gapSize = size;
     do {
         flag = false;
         gapSize = (gapSize+1)/2;
